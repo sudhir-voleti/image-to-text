@@ -10,7 +10,7 @@ library("magrittr")
 shinyUI(fluidPage(
   # Header:
   #headerPanel("Image to Text App"),
-  titlePanel(title=div(img(src="logo.png",align='right'),"Image to Text App"))
+  titlePanel(title=div(img(src="logo.png",align='right'),"Image to Text App")),
   # Input in sidepanel:
   sidebarPanel(
     
